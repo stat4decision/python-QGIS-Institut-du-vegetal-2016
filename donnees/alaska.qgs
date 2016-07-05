@@ -1,0 +1,382 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis projectname="" version="2.8.9-Wien">
+  <title></title>
+  <layer-tree-group expanded="1" checked="Qt::Checked" name="">
+    <customproperties/>
+    <layer-tree-layer expanded="1" checked="Qt::Checked" id="rivers20160630123716706" name="rivers">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" checked="Qt::Checked" id="world_borders20160630123716696" name="world_borders">
+      <customproperties/>
+    </layer-tree-layer>
+  </layer-tree-group>
+  <relations/>
+  <mapcanvas>
+    <units>feet</units>
+    <extent>
+      <xmin>-7118193.32939903531223536</xmin>
+      <ymin>2568585.17178772855550051</ymin>
+      <xmax>5493139.10562232416123152</xmax>
+      <ymax>9327531.36940834671258926</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <projections>1</projections>
+    <destinationsrs>
+      <spatialrefsys>
+        <proj4>+proj=aea +lat_1=55 +lat_2=65 +lat_0=50 +lon_0=-154 +x_0=0 +y_0=0 +datum=NAD27 +units=us-ft +no_defs</proj4>
+        <srsid>932</srsid>
+        <srid>2964</srid>
+        <authid>EPSG:2964</authid>
+        <description>NAD27 / Alaska Albers</description>
+        <projectionacronym>aea</projectionacronym>
+        <ellipsoidacronym>clrk66</ellipsoidacronym>
+        <geographicflag>false</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <layer_coordinate_transform_info>
+      <layer_coordinate_transform destAuthId="EPSG:2964" srcAuthId="EPSG:2964" srcDatumTransform="-1" destDatumTransform="-1" layerid="airports20140502155725153"/>
+      <layer_coordinate_transform destAuthId="EPSG:2964" srcAuthId="EPSG:2964" srcDatumTransform="-1" destDatumTransform="-1" layerid="world_borders20160630123559828"/>
+      <layer_coordinate_transform destAuthId="EPSG:2964" srcAuthId="EPSG:2964" srcDatumTransform="-1" destDatumTransform="-1" layerid="world_borders20160630123412552"/>
+      <layer_coordinate_transform destAuthId="EPSG:2964" srcAuthId="" srcDatumTransform="-1" destDatumTransform="-1" layerid="regions20140502145258447"/>
+      <layer_coordinate_transform destAuthId="EPSG:2964" srcAuthId="EPSG:2964" srcDatumTransform="-1" destDatumTransform="-1" layerid="rivers20160630123716706"/>
+      <layer_coordinate_transform destAuthId="EPSG:2964" srcAuthId="EPSG:2964" srcDatumTransform="-1" destDatumTransform="-1" layerid="world_borders20160630123619851"/>
+      <layer_coordinate_transform destAuthId="EPSG:2964" srcAuthId="EPSG:2964" srcDatumTransform="-1" destDatumTransform="-1" layerid="world_borders20160630123716696"/>
+    </layer_coordinate_transform_info>
+  </mapcanvas>
+  <visibility-presets/>
+  <layer-tree-canvas>
+    <custom-order enabled="0">
+      <item>world_borders20160630123716696</item>
+      <item>rivers20160630123716706</item>
+    </custom-order>
+  </layer-tree-canvas>
+  <legend updateDrawingOrder="true">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="rivers" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="rivers20160630123716706" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="world_borders" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="world_borders20160630123716696" visible="1"/>
+      </filegroup>
+    </legendlayer>
+  </legend>
+  <projectlayers layercount="2">
+    <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <id>rivers20160630123716706</id>
+      <datasource>./shapefiles/rivers.shp</datasource>
+      <title></title>
+      <abstract></abstract>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>rivers</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=aea +lat_1=55 +lat_2=65 +lat_0=50 +lon_0=-154 +x_0=0 +y_0=0 +datum=NAD27 +units=us-ft +no_defs</proj4>
+          <srsid>932</srsid>
+          <srid>2964</srid>
+          <authid>EPSG:2964</authid>
+          <description>NAD27 / Alaska Albers</description>
+          <projectionacronym>aea</projectionacronym>
+          <ellipsoidacronym>clrk66</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="System">ogr</provider>
+      <previewExpression></previewExpression>
+      <vectorjoins/>
+      <expressionfields/>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="cat">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="F_CODEDESC">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="NAM">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="F_CODE">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+      </edittypes>
+      <renderer-v2 symbollevels="0" type="singleSymbol">
+        <symbols>
+          <symbol alpha="1" type="line" name="0">
+            <layer pass="0" class="SimpleLine" locked="0">
+              <prop k="capstyle" v="square"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="line_color" v="50,92,140,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="0.26"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0"/>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale scalemethod="area"/>
+      </renderer-v2>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerTransparency>0</layerTransparency>
+      <displayfield>cat</displayfield>
+      <label>0</label>
+      <labelattributes>
+        <label fieldname="" text="Étiquette"/>
+        <family fieldname="" name="MS Shell Dlg 2"/>
+        <size fieldname="" units="pt" value="12"/>
+        <bold fieldname="" on="0"/>
+        <italic fieldname="" on="0"/>
+        <underline fieldname="" on="0"/>
+        <strikeout fieldname="" on="0"/>
+        <color fieldname="" red="0" blue="0" green="0"/>
+        <x fieldname=""/>
+        <y fieldname=""/>
+        <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+        <angle fieldname="" value="0" auto="0"/>
+        <alignment fieldname="" value="center"/>
+        <buffercolor fieldname="" red="255" blue="255" green="255"/>
+        <buffersize fieldname="" units="pt" value="1"/>
+        <bufferenabled fieldname="" on=""/>
+        <multilineenabled fieldname="" on=""/>
+        <selectedonly on=""/>
+      </labelattributes>
+      <editform></editform>
+      <editforminit/>
+      <featformsuppress>0</featformsuppress>
+      <annotationform></annotationform>
+      <editorlayout>generatedlayout</editorlayout>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions/>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="cat">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="F_CODEDESC">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="NAM">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="F_CODE">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+      </edittypes>
+    </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <id>world_borders20160630123716696</id>
+      <datasource>./shapefiles/alaska.shp</datasource>
+      <title></title>
+      <abstract></abstract>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>world_borders</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=aea +lat_1=55 +lat_2=65 +lat_0=50 +lon_0=-154 +x_0=0 +y_0=0 +datum=NAD27 +units=us-ft +no_defs</proj4>
+          <srsid>932</srsid>
+          <srid>2964</srid>
+          <authid>EPSG:2964</authid>
+          <description>NAD27 / Alaska Albers</description>
+          <projectionacronym>aea</projectionacronym>
+          <ellipsoidacronym>clrk66</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="System">ogr</provider>
+      <previewExpression></previewExpression>
+      <vectorjoins/>
+      <expressionfields/>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="cat">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="NAME">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="AREA_MI">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+      </edittypes>
+      <renderer-v2 symbollevels="0" type="singleSymbol">
+        <symbols>
+          <symbol alpha="1" type="fill" name="0">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0"/>
+              <prop k="color" v="0,255,0,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale scalemethod="area"/>
+      </renderer-v2>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerTransparency>0</layerTransparency>
+      <displayfield>NAME</displayfield>
+      <label>0</label>
+      <labelattributes>
+        <label fieldname="" text="Étiquette"/>
+        <family fieldname="" name="MS Shell Dlg 2"/>
+        <size fieldname="" units="pt" value="12"/>
+        <bold fieldname="" on="0"/>
+        <italic fieldname="" on="0"/>
+        <underline fieldname="" on="0"/>
+        <strikeout fieldname="" on="0"/>
+        <color fieldname="" red="0" blue="0" green="0"/>
+        <x fieldname=""/>
+        <y fieldname=""/>
+        <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+        <angle fieldname="" value="0" auto="0"/>
+        <alignment fieldname="" value="center"/>
+        <buffercolor fieldname="" red="255" blue="255" green="255"/>
+        <buffersize fieldname="" units="pt" value="1"/>
+        <bufferenabled fieldname="" on=""/>
+        <multilineenabled fieldname="" on=""/>
+        <selectedonly on=""/>
+      </labelattributes>
+      <editform></editform>
+      <editforminit/>
+      <featformsuppress>0</featformsuppress>
+      <annotationform></annotationform>
+      <editorlayout>generatedlayout</editorlayout>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions/>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="cat">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="NAME">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="AREA_MI">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+      </edittypes>
+    </maplayer>
+  </projectlayers>
+  <properties>
+    <WMSContactPerson type="QString"></WMSContactPerson>
+    <EventLayer>
+      <OffsetScales type="QStringList"/>
+      <FromFields type="QStringList"/>
+      <MemoryLayers type="QStringList"/>
+      <LineFields type="QStringList"/>
+      <ToFields type="QStringList"/>
+      <ForceSingleGeometries type="QStringList"/>
+      <EventLayers type="QStringList"/>
+      <LineLayers type="QStringList"/>
+      <EventFields type="QStringList"/>
+      <OffsetFields type="QStringList"/>
+    </EventLayer>
+    <WMSOnlineResource type="QString"></WMSOnlineResource>
+    <WMSContactOrganization type="QString"></WMSContactOrganization>
+    <WMSKeywordList type="QStringList">
+      <value></value>
+    </WMSKeywordList>
+    <WFSUrl type="QString"></WFSUrl>
+    <Paths>
+      <Absolute type="bool">false</Absolute>
+    </Paths>
+    <WMSServiceTitle type="QString"></WMSServiceTitle>
+    <WFSLayers type="QStringList"/>
+    <WMSContactMail type="QString"></WMSContactMail>
+    <PositionPrecision>
+      <DecimalPlaces type="int">2</DecimalPlaces>
+      <Automatic type="bool">true</Automatic>
+      <DegreeFormat type="QString">D</DegreeFormat>
+    </PositionPrecision>
+    <WCSUrl type="QString"></WCSUrl>
+    <WMSContactPhone type="QString"></WMSContactPhone>
+    <WMSServiceCapabilities type="bool">false</WMSServiceCapabilities>
+    <WMSServiceAbstract type="QString"></WMSServiceAbstract>
+    <WMSAddWktGeometry type="bool">false</WMSAddWktGeometry>
+    <Measure>
+      <Ellipsoid type="QString">NONE</Ellipsoid>
+    </Measure>
+    <WFSTLayers>
+      <Insert type="QStringList"/>
+      <Update type="QStringList"/>
+      <Delete type="QStringList"/>
+    </WFSTLayers>
+    <Gui>
+      <SelectionColorBluePart type="int">0</SelectionColorBluePart>
+      <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
+      <CanvasColorRedPart type="int">255</CanvasColorRedPart>
+      <SelectionColorRedPart type="int">255</SelectionColorRedPart>
+      <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
+      <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
+      <CanvasColorBluePart type="int">255</CanvasColorBluePart>
+    </Gui>
+    <Digitizing>
+      <DefaultSnapToleranceUnit type="int">2</DefaultSnapToleranceUnit>
+      <LayerSnappingList type="QStringList"/>
+      <LayerSnappingEnabledList type="QStringList"/>
+      <SnappingMode type="QString">current_layer</SnappingMode>
+      <AvoidIntersectionsList type="QStringList"/>
+      <LayerSnappingToleranceUnitList type="QStringList"/>
+      <LayerSnapToList type="QStringList"/>
+      <DefaultSnapType type="QString">off</DefaultSnapType>
+      <DefaultSnapTolerance type="double">0</DefaultSnapTolerance>
+      <LayerSnappingToleranceList type="QStringList"/>
+    </Digitizing>
+    <Identify>
+      <disabledLayers type="QStringList"/>
+    </Identify>
+    <Macros>
+      <pythonCode type="QString"></pythonCode>
+    </Macros>
+    <WMSAccessConstraints type="QString"></WMSAccessConstraints>
+    <WCSLayers type="QStringList"/>
+    <Legend>
+      <filterByMap type="bool">false</filterByMap>
+    </Legend>
+    <SpatialRefSys>
+      <ProjectCRSProj4String type="QString">+proj=tmerc +lat_0=0 +lon_0=6 +k=1 +x_0=2500000 +y_0=0 +ellps=bessel +towgs84=598.1,73.7,418.2,0.202,0.045,-2.455,6.7 +units=m +no_defs</ProjectCRSProj4String>
+      <ProjectCrs type="QString">EPSG:31466</ProjectCrs>
+      <ProjectCRSID type="int">2646</ProjectCRSID>
+      <ProjectionsEnabled type="int">1</ProjectionsEnabled>
+    </SpatialRefSys>
+    <DefaultStyles>
+      <Fill type="QString"></Fill>
+      <Line type="QString"></Line>
+      <Marker type="QString"></Marker>
+      <RandomColors type="bool">true</RandomColors>
+      <AlphaInt type="int">255</AlphaInt>
+      <ColorRamp type="QString"></ColorRamp>
+    </DefaultStyles>
+    <WMSFees type="QString"></WMSFees>
+    <WMSUrl type="QString"></WMSUrl>
+  </properties>
+</qgis>

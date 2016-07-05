@@ -1,0 +1,5 @@
+<RCC> 
+  <qresource prefix="/plugins/ShowActiveLayer" > 
+    <file>icon.png</file> 
+  </qresource> 
+</RCC> 
